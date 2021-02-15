@@ -13,7 +13,13 @@
     font-size: 22px;
   }
   
-  .settings__setting-column:last-child {
-    opacity: 0.5;
+  .settings__setting-column{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
   }
+  .settings__setting_desc{
+    font-size: 12px;
+  }
+
   
